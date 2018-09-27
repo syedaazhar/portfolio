@@ -6,7 +6,8 @@ body{
   position: fixed;
   top: 0;
   transition: 0.4s;
-  padding: 30px;
+  padding: 10px;
+  background-color: #212121;
 }
 
 #mainNav .navbar-brand, 
@@ -91,19 +92,21 @@ div#particles-js canvas.particles-js-canvas-el{
 
 .skills-section{
   width: 100%;
-  height: 450px;
+  height: 533px;
   display: flex;
   /* justify-content: center; */
   flex-direction: column;
   align-items: center;
+  margin: 0 !important;
 }
 
 .my-skills, .my-project{
-  height: 127px;
+  height: 182px;
   display: flex;
   align-items: center;
   width: 100%;
   justify-content: center;
+  margin: 0 !important;
 }
 
 
@@ -185,24 +188,18 @@ div#particles-js canvas.particles-js-canvas-el{
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 132vh;
+  height: 100%;
 }
 
-/* .project-section{
-  width: 82%;
-  height: 132vh;
-} */
+.project-section{
+  height: 100%;
+}
 
 .project-section > .grid-container{
-  height: 708px;
+  height: 100%;
   grid-template-columns: auto auto auto;
   grid-gap: 30px
 }
-
-/* .portfolio-box{
-  width:360px;
-  height:400px;
-} */
 
 .project-img{
   
@@ -249,30 +246,116 @@ div#particles-js canvas.particles-js-canvas-el{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .project-del > h5{
   margin: 0;
   padding:0;
-  padding-top: 10px;
   color: #fff;
 }
 
-.card{
-  border-radius: 0 !important;
+/* About */
+
+.timeline {
+  width: 80%;
+  position: relative;
+  height: 100%;
+  margin: 0 auto;
 }
 
-
-
-
-
-@media screen and (min-width:1090px){
-  /* #project-1-img{
-    width: 74%;
-    height: 87vh;
-  } */
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 15px;
+    margin-left: -3px;
 }
+
+.about-container{
+  margin: 30px 0 0;
+  background-color: whitesmoke;
+  padding: 60px 0;
+}
+
+.about-content
+{
+  width: 100%;
+  height:75px;
+  display: flex;
+  justify-content: flex-start;
   
+}
+
+.circle-div{
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: start;
+ 
+}
+
+.circle{
+  background-position: center;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 1000px;
+  background-color: #03A9F4;
+  z-index: 1;
+  border: 5px solid #0a0a0a
+}
+
+.content-del {
+  padding: 20px 50px;
+  border-radius: 6px;
+  width: 100%;
+  height: 90px;
+}
+
+.content-del > h2{
+  font-size: 20px;
+}
+
+.content-del > h4{
+  font-size: 16px;
+}
+
+/* contact */
+
+.Contact-del{
+  display: flex;
+  justify-content: center;
+}
+
+.fab, .far{
+  border-color: #03a9f4;
+  color: #03a9f4;
+  font-size: 32px;
+  width: 46px;
+  height: 27px;
+  border-radius: 1000px;
+  text-align: center;
+}
+
+.Contact{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height:60px;
+  background-color: #212121;
+}
+
+.project-del > a > .fa-github{
+  font-size: 20px;
+}
+
+
+
 @media screen and (max-width:1085px){
   .grid-container div.card.skill-box{
     width:169px;
@@ -285,8 +368,12 @@ div#particles-js canvas.particles-js-canvas-el{
     height:167px;
   }
 
+  .skills-section{
+    height: 469px;
+  }
+
   .project-section > .grid-container {
-    height: 610px;
+    height: 100%;
   }
   .project {
     width: 238px;
@@ -302,6 +389,7 @@ div#particles-js canvas.particles-js-canvas-el{
   }
 }
 
+
 @media screen and (max-width:900px){
   .grid-container div.card.skill-box{
     width:144px ;
@@ -313,12 +401,12 @@ div#particles-js canvas.particles-js-canvas-el{
   .skills-img {
     height: 144px;
   }
-
 }
+
 
 @media screen and (max-width:865px){
   .project-section > .grid-container{
-    height: 708px;
+    height: 100%;
     grid-template-columns: auto auto;
   }
   .project {
@@ -332,9 +420,8 @@ div#particles-js canvas.particles-js-canvas-el{
   .project-del{
     height:107px;
   }
-
-
 }
+
 
 @media screen and (max-width: 767px) {
   
@@ -346,7 +433,7 @@ div#particles-js canvas.particles-js-canvas-el{
     height: 266px;
   }
   .skills-section {
-    height: 203vh;
+    height: 217vh;
   }
   .skills-img {
     height: 217px;
@@ -357,12 +444,10 @@ div#particles-js canvas.particles-js-canvas-el{
   .skills-img, .skills-img2, .skills-img3 {
     background-position: center;
     background-size: cover;
-    
   }
 
   .project-section > .grid-container {
-    height: 528px;
-    /* grid-template-columns: auto; */
+        height: 100%;
   }
   .project {
     width: 218px;
@@ -377,6 +462,8 @@ div#particles-js canvas.particles-js-canvas-el{
     height: 83px;
   }
 }
+
+
 
 @media screen and (max-width:535px){
   .intro, .intro-del{

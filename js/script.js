@@ -1,16 +1,28 @@
 
 
 // navbar animation
-window.onscroll = function () { scrollFunction() };
+window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
+
+$(document).ready(function(){
+  
+    let i=  $("body").width();
+   
+if(i >="850" )
+{
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.querySelector(".navbar").style = "padding: 8px 10px; background-color : #191a1b";
-    document.querySelector(".navbar-brand").style.fontSize = "20px";
-  } else {
-    document.querySelector(".navbar").style = "padding: 30px 10px; background-color :rgba(33, 37, 41, 0)";
-    document.querySelector(".navbar-brand").style.fontSize = "35px";
-  }
+      document.querySelector(".navbar").style= "padding: 8px 10px; background-color : #191a1b"; 
+      document.querySelector(".navbar-brand").style.fontSize = "20px";
+     
+    } else {
+      document.querySelector(".navbar").style= "padding: 30px 10px; background-color :rgba(33, 37, 41, 0)";
+      document.querySelector(".navbar-brand").style.fontSize = "35px";
+    
+    }
 }
+    
+    });
+  }
 
 // ***
 
