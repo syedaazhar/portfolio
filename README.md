@@ -11,7 +11,7 @@ This is my resume you can check my all projects
 
 * Cascading Style Sheets is a style sheet language
 
-used for describing the presentation of a document written in a markup language like HTML.
+  used for describing the presentation of a document written in a markup language like HTML.
 
 ### JAVASCRIPT
 
@@ -28,24 +28,24 @@ check this simple and amazing librarys
 
 * Fontawesome:
 
-  https://fontawesome.com/icons?d=gallery&q=js
+   https://fontawesome.com/icons?d=gallery&q=js
   
 * Google Fonts
 
-  https://fonts.google.com/
+   https://fonts.google.com/
   
  * Particles.js
   
-  https://vincentgarreau.com/particles.js/
+   https://vincentgarreau.com/particles.js/
   
  * animate.css
   
-  https://daneden.github.io/animate.css/
+    https://daneden.github.io/animate.css/
   
  * AOS : Animate On Scroll Library
   
-  https://michalsnik.github.io/aos/
+    https://michalsnik.github.io/aos/
 
 
 ## Website URL
- https://syedaazhar.github.io/portfolio/.
+  https://syedaazhar.github.io/portfolio/.
