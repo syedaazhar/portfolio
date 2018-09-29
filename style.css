@@ -21,6 +21,10 @@ body{
   
 }
 
+.fas.fa-bars{
+  font-size: 12px;
+}
+
 .container .navbar-toggler{
   height: 36px;
   height: 36px;
@@ -237,27 +241,27 @@ div#particles-js canvas.particles-js-canvas-el{
 
 
 #project-img1{
-  background-image: url('images/weather-app.png');
+  background-image: url('images/img-2.png');
 }
 
 #project-img2{
-  background-image: url('images/news-app.png');
+  background-image: url('images/img-4.png');
 }
 
 #project-img3{
-  background-image: url('images/web-whatsapp.png');
+  background-image: url('images/img-6.png');
 }
 
 #project-img4{
-  background-image: url('images/mobile-gallery.png');
+  background-image: url('images/img-1.png');
 }
 
 #project-img5{
-  background-image: url('images/Capture-15.png');
+  background-image: url('images/img-7.png');
 }
 
 #project-img6{
-  background-image: url('images/online-shop.png');
+  background-image: url('images/img-3.png');
 }
 
 .project{
