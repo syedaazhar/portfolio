@@ -34,20 +34,18 @@ check this simple and amazing librarys
 
   https://fonts.google.com/
   
-  * Particles.js
+ * Particles.js
   
   https://vincentgarreau.com/particles.js/
   
-  * animate.css
+ * animate.css
   
   https://daneden.github.io/animate.css/
   
-  * AOS : Animate On Scroll Library
+ * AOS : Animate On Scroll Library
   
   https://michalsnik.github.io/aos/
-  
-  
-  
+
 
 ## Website URL
  https://syedaazhar.github.io/portfolio/.
