@@ -241,27 +241,27 @@ div#particles-js canvas.particles-js-canvas-el{
 
 
 #project-img1{
-  background-image: url('images/img-2.png');
+  background-image: url('images/images-2/weather.png');
 }
 
 #project-img2{
-  background-image: url('images/img-4.png');
+  background-image: url('images/images-2/news-app.png');
 }
 
 #project-img3{
-  background-image: url('images/img-6.png');
+  background-image: url('images/images-2/web-whatsapp.png');
 }
 
 #project-img4{
-  background-image: url('images/img-1.png');
+  background-image: url('images/images-2/mobile-gallery.png');
 }
 
 #project-img5{
-  background-image: url('images/img-7.png');
+  background-image: url('images/images-2/wed-planning.png');
 }
 
 #project-img6{
-  background-image: url('images/img-3.png');
+  background-image: url('images/images-2/making-life-matter.png');
 }
 
 .project{
